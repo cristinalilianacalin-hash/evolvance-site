@@ -763,3 +763,10 @@ p{margin-bottom:1.15em}
 
 /* About photo travels with the text while reading (desktop) */
 @media (min-width:701px){.about-photo-wrap{position:sticky;top:110px;align-self:start}}
+
+/* status card rows are links */
+a.sc-row{color:inherit;text-decoration:none;position:relative;padding-right:1.6rem!important;border-radius:6px;transition:background .15s}
+a.sc-row:hover,a.sc-row:focus-visible{background:var(--paper)}
+a.sc-row:hover .sc-label,a.sc-row:focus-visible .sc-label{color:var(--teal);text-decoration:underline;text-underline-offset:3px}
+.sc-go{position:absolute;right:.3rem;top:50%;transform:translateY(-50%);color:var(--teal-2);font-weight:700;transition:transform .15s}
+a.sc-row:hover .sc-go{transform:translate(3px,-50%)}
