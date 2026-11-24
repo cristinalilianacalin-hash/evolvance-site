@@ -770,3 +770,11 @@ a.sc-row:hover,a.sc-row:focus-visible{background:var(--paper)}
 a.sc-row:hover .sc-label,a.sc-row:focus-visible .sc-label{color:var(--teal);text-decoration:underline;text-underline-offset:3px}
 .sc-go{position:absolute;right:.3rem;top:50%;transform:translateY(-50%);color:var(--teal-2);font-weight:700;transition:transform .15s}
 a.sc-row:hover .sc-go{transform:translate(3px,-50%)}
+
+/* offer list: titles and status pills are links */
+a.offer-h{color:inherit;text-decoration:none}
+a.offer-h:hover,a.offer-h:focus-visible{color:var(--teal-2);text-decoration:underline;text-underline-offset:4px}
+a.pill-link{text-decoration:none;display:inline-block}
+a.pill-link:hover .pill{filter:brightness(.95);box-shadow:0 0 0 2px var(--rule)}
+a.sc-row{cursor:pointer}
+a.sc-row .sc-go{right:.15rem}
