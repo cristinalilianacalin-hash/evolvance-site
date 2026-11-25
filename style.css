@@ -778,3 +778,9 @@ a.pill-link{text-decoration:none;display:inline-block}
 a.pill-link:hover .pill{filter:brightness(.95);box-shadow:0 0 0 2px var(--rule)}
 a.sc-row{cursor:pointer}
 a.sc-row .sc-go{right:.15rem}
+
+/* ===== Three doors at 40% of their earlier size (Cris, 25.11.2026). Same block on all three sites. ===== */
+.door-frame{zoom:.4}
+.door-here{display:none}
+.door a{gap:12px}
+.doors-row{margin-top:clamp(24px,3.5vw,40px)}
